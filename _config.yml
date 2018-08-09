@@ -23,15 +23,15 @@ whitelist:
   - jekyll-redirect-from
 
 # Setup
-title:            Hyde
-tagline:          'A Jekyll theme'
-description:      'A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
-url:              http://hyde.getpoole.com
+title:            Better Together
+tagline:          'Tab Church + Grace Bible Church'
+description:      'Description Will Go Here'
+url:              https://better-together.church
 baseurl:          /
 
 author:
-  name:           'Mark Otto'
-  url:            https://twitter.com/mdo
+  name:           'Lou Page'
+  url:            https://twitter.com/loupage
 
 paginate:         5
 
