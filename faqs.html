@@ -1,0 +1,17 @@
+---
+layout: page
+tagline: Just
+title: Frequently Asked Questions
+---
+<div class="posts">
+    {% for post in site.posts %}
+    <div class="">
+      <h2 class="post-title">
+        <a href="{{ post.url }}">
+          {{ post.title }}
+        </a>
+      </h2>
+  
+    </div>
+    {% endfor %}
+  </div>
