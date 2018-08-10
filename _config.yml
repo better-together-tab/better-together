@@ -27,7 +27,7 @@ title:            Better Together
 tagline:          'Tab Church + Grace Bible Church'
 description:      'Description Will Go Here'
 url:              https://better-together.church
-baseurl:          /
+baseurl:          https://better-together.church
 
 author:
   name:           'Lou Page'
