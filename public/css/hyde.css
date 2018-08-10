@@ -112,6 +112,9 @@ a.sidebar-nav-item:focus {
     bottom: 1rem;
     left:   1rem;
   }
+  .sidebar-nav {
+    margin-bottom:0px;
+  }
 }
 
 
@@ -122,7 +125,7 @@ a.sidebar-nav-item:focus {
  */
 
 .content {
-  padding-top:    4rem;
+  padding-top:    2rem;
   padding-bottom: 4rem;
 }
 
@@ -132,12 +135,18 @@ a.sidebar-nav-item:focus {
     margin-left: 20rem;
     margin-right: 2rem;
   }
+  .sidebar-nav {
+    margin-bottom: 2rem;
+  }
 }
 
 @media (min-width: 64em) {
   .content {
     margin-left: 22rem;
     margin-right: 4rem;
+  }
+  .sidebar-nav {
+    margin-bottom: 2rem;
   }
 }
 
@@ -179,11 +188,11 @@ a.sidebar-nav-item:focus {
 
 /* Red */
 .theme-base-08 .sidebar {
-  background-color: #ac4142;
+  background-color: #a81721;
 }
 .theme-base-08 .content a,
 .theme-base-08 .related-posts li a:hover {
-  color: #ac4142;
+  color: #a81721;
 }
 
 /* Orange */

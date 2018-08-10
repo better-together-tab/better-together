@@ -1,5 +1,5 @@
 # Dependencies
-markdown:         redcarpet
+markdown:         kramdown
 highlighter:      rouge
 
 # Permalinks
@@ -40,3 +40,11 @@ version:          2.1.0
 
 github:
   repo:           https://github.com/poole/hyde
+
+videos:
+  video_01:
+    title:        'Video One'
+    url:          https://www.youtube.com/watch?v=bRPQmaFQiwM
+  video_02:
+    title:        'Video Two'
+    url:          https://www.youtube.com/watch?v=bRPQmaFQiwM

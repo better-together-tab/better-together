@@ -1,0 +1,18 @@
+---
+layout: video
+tagline: Just
+title: Videos
+---
+<div class="posts">
+    {% for video in site.videos %}
+
+    <div class="">
+      <h2 class="post-title">
+        <p>
+          {{video[1].title}} - {{video[1].url}}
+        </p>
+      </h2>
+  
+    </div>
+    {% endfor %}
+  </div>
