@@ -48,3 +48,7 @@ videos:
   video_02:
     title:        'Video Two'
     url:          https://www.youtube.com/watch?v=bRPQmaFQiwM
+
+collections:
+  faq_questions:
+    output: true
