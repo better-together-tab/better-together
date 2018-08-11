@@ -1,6 +1,6 @@
 ---
 layout: video
-title: Video Two
+title: Message - A New Thing
 ---
 
 <p class="message">

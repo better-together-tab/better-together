@@ -1,6 +1,6 @@
 ---
 layout: video
-title: Video One
+title: Better Together - Introduction
 ---
 
 <p class="message">
