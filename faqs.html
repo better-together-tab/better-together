@@ -2,9 +2,10 @@
 layout: page
 title: Frequently Asked Questions
 ---
-
+{% assign sorted = site.faq_questions | sort: 'title'  %}
+    
 <ol class="custom-counter">
-{% for item in site.faq_questions %}
+  {% for item in sorted %}
   <li><a href="{{ item.url }}">{{ item.question }}</a></li>
 {% endfor %}
 </ol>    
