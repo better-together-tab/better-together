@@ -52,3 +52,5 @@ videos:
 collections:
   faq_questions:
     output: true
+  submitted-questions:
+    output: true

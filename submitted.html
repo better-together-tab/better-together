@@ -1,0 +1,14 @@
+---
+layout: page
+title: User Submitted questions
+---
+<p class="message">
+  On this page you will find questions that have been submitted through the online feedback form.
+</p>
+{% assign sorted = site.submitted-questions | sort: 'title'  %}
+    
+<ol class="custom-counter">
+  {% for item in sorted %}
+  <li><a href="{{ item.url }}">{{ item.question }}</a></li>
+{% endfor %}
+</ol>    
